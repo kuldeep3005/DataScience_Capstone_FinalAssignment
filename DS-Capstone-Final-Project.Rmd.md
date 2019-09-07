@@ -1,0 +1,51 @@
+Data Science-Capstone-Final-Project
+========================================================
+title: Data Science Capstone Final Project
+author: Kuldeep Singh Meena
+date: September 7th, 2019
+
+Project Overview
+========================================================
+
+The purpose of this project is to create a Word Prediction application with R shiny package that predicts next words using NLP(Natural Language Processing) model.
+
+
+- Given a word/phrase as input, the application tries to predict next words, very similiar to the way most      smartphones predict next words using "Swiftkey" 
+- Prediction Model has been trained using subsets from three datasets(blogs, twitter and news)
+- It populates next predicted word as an output. 
+
+Using Word Prediction App
+========================================================
+
+<div style="align:top"><img src="./www/App_UserGuide.png" alt="User Guide" /></div>
+
+
+Prediction Model Overview - Data Gathering and Cleansing 
+========================================================
+
+- Data have been merged from 3 datasets(Blogs, Twitter and News) into one data file.
+
+- Data were cleansed by converting them to lowercase, stripping white space and removing punctuation & numbers.
+
+- N-grams like Bigram, Trigram and Quadgram were created using cleansed dataset.
+- Extracted term-count tables from the n-grams.
+- Sorted in descending order based on frequency.
+- Saved n-gram objects.
+
+
+
+Word Prediction Algorithm & Summary
+========================================================
+
+- Algorithm used here, checks highest order of n-gram(n=4)
+
+- If n=4 is not found, then it checks the next lower-order model (n=3)
+
+- If n=3 is not found, then app continues to check (n=2)
+
+- If n=2 is not found, then application returns "No Match Found"
+
+
+
+- Word Prediction App is hosted on Shinyapps.io(link: https://kuldeep3005.shinyapps.io/Capstone-Word-Prediction/)
+- Code and presentation are available in Github repo(link: https://github.com/kuldeep3005/Capstone_Final_Assignment)
