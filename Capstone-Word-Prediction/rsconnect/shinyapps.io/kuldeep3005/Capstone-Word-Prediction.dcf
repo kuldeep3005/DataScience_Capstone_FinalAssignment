@@ -5,8 +5,8 @@ account: kuldeep3005
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1161043
-bundleId: 2394488
+bundleId: 2394565
 url: https://kuldeep3005.shinyapps.io/Capstone-Word-Prediction/
-when: 1567862848.98361
+when: 1567865227.68143
 asMultiple: FALSE
 asStatic: FALSE

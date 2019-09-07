@@ -18,6 +18,6 @@ and to provide a user interface that can be accessed by others to utilze the alg
 2. The user's entry will be displayed in the Next Word Prediction section.
 
 #### Documentation:
-1. Presentation slide deck: Available on the [RPubs page](http://rpubs.com/kuldeep3005/525845)
-2. Source code for ui.R and server.R files: Available on the [GitHub repo](https://github.com/DWenke/Data-Science-Capstone-Final-Project)
-3. About, ReadMe, PNG and JPG files: Available on the [GitHub repo](https://github.com/DWenke/Data-Science-Capstone-Final-Project)
+1. Presentation slide deck: Available on the [RPubs page](http://rpubs.com/kuldeep3005/525848)
+2. Source code for ui.R and server.R files: Available on the [GitHub repo](https://github.com/kuldeep3005/DataScience_Capstone_FinalAssignment)
+3. About, ReadMe, PNG and JPG files: Available on the [GitHub repo](https://github.com/kuldeep3005/DataScience_Capstone_FinalAssignment)
